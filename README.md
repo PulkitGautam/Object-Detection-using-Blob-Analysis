@@ -1,2 +1,4 @@
 # Object-Detection-and-Counting-of-Objects-by-Shape-and-Colour-using-Blob-Analysis-in-MATLAB
-Project
+This project focuses on detecting and counting objects based on color and shape using image processing techniques in MATLAB. The primary use case is identifying and counting mangoes in tree images with complex backgrounds.
+The approach combines color segmentation and blob analysis to isolate target objects from surrounding noise. The processing pipeline includes image pre-processing, color space filtering, grayscale conversion, noise reduction, and morphological operations to enhance object regions. Blob analysis is then applied to detect connected components and count individual objects.
+The main challenges addressed include varying lighting conditions, background similarity, and overlapping objects, which can affect detection accuracy. The implemented method aims to improve robustness in such scenarios while maintaining computational simplicity, making it suitable for practical applications like crop monitoring and yield estimation.
